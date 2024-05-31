@@ -6,4 +6,5 @@ punForPass = ['@','#','$','&','*']
 passwd.extend(R.sample(punForPass,2))
 R.shuffle(passwd)
 passwd = "".join(passwd)
+passwd
 print(passwd)
